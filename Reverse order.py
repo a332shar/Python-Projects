@@ -6,7 +6,7 @@ class work:
         x = 0
         while x != int(len(straight)/2):
             temp = straight[x]
-            straight[x] = straight[(len(straight) - x) - 1]
+            straight work
             straight[(len(straight) - x) - 1] = temp
 
             x += 1
